@@ -1,0 +1,7 @@
+.scrollToReportDiv{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 99vw;
+    height: 93vh;
+    scrollbar-width: none;
+}

@@ -1,0 +1,86 @@
+/* Ensure the container occupies the full viewport height and is fixed */
+.container-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden; /* Hide overflow to manage scroll within the content-wrapper */
+}
+
+/* Allow the content-wrapper to scroll if it overflows */
+.content-wrapper {
+    overflow: auto;
+    height: 100vh; /* Full viewport height */
+    padding: 1rem; /* Optional padding for better spacing */
+    box-sizing: border-box;
+}
+.fixed-card {
+    height: 100%;
+}
+
+/* Set fixed height and scrolling for the table card */
+.scrollable-card {
+    height: 100%;
+}
+
+.table-container {
+    max-height: 70vh; /* Adjust based on your layout needs */
+    overflow-y: auto;
+}
+
+.TableRowInCategory{
+    height: 10px;
+}
+.saveIcon, .editIcon, .deleteIcon, .IconButton{
+    height: 10px;
+}
+
+
+
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    max-width: 100%; /* Ensure container does not exceed viewport width */
+}
+
+table {
+    width: 100%;
+    table-layout: fixed; /* Fixed layout for consistent column widths */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 10%; /* Adjust as needed */
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 15%; /* Adjust as needed */
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 25%; /* Adjust as needed */
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 20%; /* Adjust as needed */
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 15%; /* Adjust as needed */
+}
+
+th:nth-child(6), td:nth-child(6) {
+    width: 15%; /* Adjust as needed */
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    box-sizing: border-box; /* Ensure inputs fill their cell */
+}

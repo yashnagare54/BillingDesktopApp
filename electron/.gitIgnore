@@ -1,0 +1,5 @@
+node_modules
+.env
+electron-quick-start/node_modules/
+sound-machine-electron-guide/node_modules/
+images

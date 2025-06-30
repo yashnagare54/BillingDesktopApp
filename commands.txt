@@ -1,0 +1,5 @@
+commands
+
+#delete process on port 8080
+netstat -ano | findstr :8080
+taskkill /PID <PID> /F

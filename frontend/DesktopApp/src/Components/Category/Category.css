@@ -1,0 +1,80 @@
+/* Ensure the container occupies the full viewport height and is fixed */
+.container-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden; /* Hide overflow to manage scroll within the content-wrapper */
+}
+
+/* Allow the content-wrapper to scroll if it overflows */
+.content-wrapper {
+    overflow: auto;
+    height: 100vh; /* Full viewport height */
+    padding: 1rem; /* Optional padding for better spacing */
+    box-sizing: border-box;
+}
+.fixed-card {
+    height: 100%;
+}
+
+/* Set fixed height and scrolling for the table card */
+.scrollable-card {
+    height: 100%;
+}
+
+.table-container {
+    max-height: 70vh; /* Adjust based on your layout needs */
+    overflow-y: auto;
+}
+
+.TableRowInCategory{
+    height: 10px;
+}
+.saveIcon, .editIcon, .deleteIcon, .IconButton{
+    height: 10px;
+}
+
+ 
+
+.table-container table {
+    width: 100%;
+  }
+  
+  .table-container th,
+  .table-container td {
+    text-align: center;
+  }
+  
+  .table-container th:nth-child(1),
+  .table-container td:nth-child(1) {
+    width: 50px; /* Adjust width as needed */
+  }
+  
+  .table-container th:nth-child(2),
+  .table-container td:nth-child(2) {
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  .table-container th:nth-child(3),
+  .table-container td:nth-child(3) {
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  .table-container th:nth-child(4),
+  .table-container td:nth-child(4) {
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  .table-container th:nth-child(5),
+  .table-container td:nth-child(5) {
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  /* Optional: Ensure images fit within the fixed width */
+  .table-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
